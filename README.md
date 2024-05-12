@@ -1,9 +1,18 @@
-# CHESS GAME 
+# Chess Game 
 The game was made in the java programming language using the eclipse IDE, the game was made for learning and fun, following all the logic of the game such as check/checkmate, special moves, changing players each turn, possible moves for each piece, specific classes and inheritance, exception handling and much more.
+
+## Index
+- <a hrefhref="#understanding-the-interface">Understanding the interface</a>
+- <a href="#how-to-run-the-project">How to run the project</a>
+- <a href="#exceptions">Exceptions</a>
+- <a href="#image-possible-movements">Possible movements of the pieces</a>
+- <a href="#author">Author</a>
 
 ## Understanding the interface
 <img src="images/ImageChess1.png" width="500px">
-images/ImageChess1.png
+The chess game is always shown above, then we have the pieces captured from the game, both white and black (yellow) because the background of the terminal is already black, every round will be shown by its turn and together with the turn of the player that would be the white or black pieces.
+
+To start, enter column (a, b, c, d...) + row (1, 2, 3, 4...) As an example **source: a2** after entering your chosen piece, it will show the possible positions for moving. <a href="#image-possible-movements">Possible movements of the pieces</a>, then enter the target position of the chosen part and so on.
 
 ## Exceptions
 <div>This exception occurs when your King is in check</div>
@@ -14,6 +23,33 @@ images/ImageChess1.png
 
 <div>This exception occurs when you try to select a part that is not yours</div> 
 <img src="images/exceptions/ImageChessPieceException.png" width="500px">
+
+
+## How to run the project
+- First step: 
+
+Create a folder on your computer where the repository will be cloned, inside it press the right button and enter the bash terminal if you don't get it enter this link for the download **<a href="https://git-scm.com/downloads">git</a>**
+
+- Second step:
+
+Copy and paste the code below into your git bash in the folder you created in step 1
+```bash
+# Clone este repositorio
+$ git clone https://github.com/Renan-amc/chess-system-java
+```
+- Step three:
+
+Now having obtained the cloned project, go into the "bin" folder
+
+- Step four: 
+
+Inside the "bin" folder, right-click and enter git bash as shown in the image below
+
+<img style="width:300" src="images/git bash.png" alt="Git Bash">
+
+- Step five:
+
+Now, in the terminal, type **java application/Program** If all goes well, the chess game will start and the screen described in **<a href="#understanding-the-interface">Understanding the interface</a>**.
 
 
 
@@ -61,4 +97,10 @@ images/ImageChess1.png
   <img src="images/movements/ImageMovementsKing.png" width="200px">
 </div>
 
+## Author
+Renan Alexandre Maciel Couto
+
+👩‍💻<a href="https://www.linkedin.com/in/renan-couto-307109237/"> **Linkedin**</a>
+🙎‍♂️<a href="https://wa.me/35988832083"> **Whatsapp**</a>
+📱 <a href="https://github.com/Renan-amc"> **Github**</a>
   
