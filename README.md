@@ -15,14 +15,20 @@ The chess game is always shown above, then we have the pieces captured from the 
 To start, enter column (a, b, c, d...) + row (1, 2, 3, 4...) As an example **source: a2** after entering your chosen piece, it will show the possible positions for moving. <a href="#image-possible-movements">Possible movements of the pieces</a>, then enter the target position of the chosen part and so on.
 
 ## Exceptions
-<div>This exception occurs when your King is in check</div>
+<div>This exception below occurs when your King is in check</div>
 <img src="images/exceptions/ImageChessCheckException.png" width="500px">
 
-<div>This exception occurs when a part is selected without any possible movement</div>
+<div>This exception below occurs when a part is selected without any possible movement</div>
 <img src="images/exceptions/ImageChessNoPossibleMovesException.png" width="500px">
 
-<div>This exception occurs when you try to select a part that is not yours</div> 
+<div>This exception below occurs when you try to select a part that is not yours</div> 
 <img src="images/exceptions/ImageChessPieceException.png" width="500px">
+
+<div>This exception below occurs when the chosen target position is not a valid movement for this piece</div>
+<img src="images/exceptions/ImageChessImpossibleMovement.png">
+
+<div>This exception below occurs when the chosen position is not a chessboard position</div>
+<img src="images/exceptions/ImageChessInvalidChessPosition.png">
 
 
 ## How to run the project
