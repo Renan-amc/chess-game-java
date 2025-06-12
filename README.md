@@ -2,7 +2,7 @@
 The game was made in the java programming language using the eclipse IDE, the game was made for learning and fun, following all the logic of the game such as check/checkmate, special moves, changing players each turn, possible moves for each piece, specific classes and inheritance, exception handling and much more.
 
 ## Index
-- <a hrefhref="#understanding-the-interface">Understanding the interface</a>
+- <a href="#understanding-the-interface">Understanding the interface</a>
 - <a href="#how-to-run-the-project">How to run the project</a>
 - <a href="#exceptions">Exceptions</a>
 - <a href="#image-possible-movements">Possible movements of the pieces</a>
@@ -36,26 +36,39 @@ To start, enter column (a, b, c, d...) + row (1, 2, 3, 4...) As an example **sou
 
 Create a folder on your computer where the repository will be cloned, inside it press the right button and enter the bash terminal if you don't get it enter this link for the download **<a href="https://git-scm.com/downloads">git</a>**
 
+Or simply download the project by going to the top of the page and clicking on Code > Download ZIP
+
 - Second step:
+
+If you have already downloaded the project directly from Code > Download ZIP you don't need to do this step
 
 Copy and paste the code below into your git bash in the folder you created in step 1
 ```bash
-# Clone este repositorio
-$ git clone https://github.com/Renan-amc/chess-system-java
+# Cria pasta .git
+git init
 ```
+```bash
+# Clone este repositorio
+git clone https://github.com/Renan-amc/chess-system-java
+```
+
 - Step three:
 
-Now having obtained the cloned project, go into the "bin" folder
+Now having obtained the cloned project, go into the "chess-game-java/bin" folder
 
 - Step four: 
 
-Inside the "bin" folder, right-click and enter git bash as shown in the image below
+Inside the “bin” folder, right-click and enter a terminal, below I'll show you how to enter the git bash terminal
 
 <img style="width:300" src="images/git bash.png" alt="Git Bash">
 
 - Step five:
 
-Now, in the terminal, type **java application/Program** If all goes well, the chess game will start and the screen described in **<a href="#understanding-the-interface">Understanding the interface</a>**.
+Now, in the terminal, type or copy and paste: 
+```
+java application/Program
+```
+If all goes well, the chess game will start and the screen described in **<a href="#understanding-the-interface">Understanding the interface</a>**.
 
 
 
