@@ -49,7 +49,7 @@ git init
 ```
 ```bash
 # Clone este repositorio
-git clone https://github.com/Renan-amc/chess-system-java
+git clone https://github.com/Renan-amc/chess-game-java
 ```
 
 - Step three:
