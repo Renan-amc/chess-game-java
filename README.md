@@ -1,5 +1,6 @@
 # Terminal Chess Game
 ![](images/GIF.gif)
+
 The game was made in the java programming language using the eclipse IDE, the game was made for learning and fun, following all the logic of the game such as check/checkmate, special moves, changing players each turn, possible moves for each piece, specific classes and inheritance, exception handling and much more.
 
 ## Index
